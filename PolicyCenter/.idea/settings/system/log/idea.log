@@ -1,0 +1,992 @@
+2020-09-10 16:28:45,405 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-09-10 16:28:45,412 [      7]   INFO -        #com.intellij.idea.Main - IDE: Guidewire Studio (build #Studio-8.0, 20 May 2014 00:00) 
+2020-09-10 16:28:45,412 [      7]   INFO -        #com.intellij.idea.Main - OS: Windows 8 (6.2) 
+2020-09-10 16:28:45,413 [      8]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_25-b17 (Oracle Corporation) 
+2020-09-10 16:28:45,413 [      8]   INFO -        #com.intellij.idea.Main - JVM: 23.25-b01 (Oracle Corporation) 
+2020-09-10 16:28:45,416 [     11]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:../lib/boot.jar -XX:ReservedCodeCacheSize=64m -Dstudio.sdkroot=C:\Hastings\GW8\Guidewire\PolicyCenter -Didea.plugins.compatible.build=IC-129.713 -Dfile.encoding=UTF-8 -Dide.tooltip.dismissDelay=60000 -ea -Didea.properties.file=C:/Hastings/GW8/Guidewire/PolicyCenter/.idea/settings/idea.properties -Didea.platform.prefix=Studio -Xms2000m -Xmx4000m -XX:MaxPermSize=500m -Dant.file=C:\Hastings\GW8\Guidewire\PolicyCenter\modules\ant\build.xml -Dant.project.invoked-targets=studio -Dant.file.type=file -Dant.file.Guidewire Ant environment initialization=C:\Hastings\GW8\Guidewire\PolicyCenter\modules\ant\init.xml -Dant.file.Guidewire product configuration environment=C:\Hastings\GW8\Guidewire\PolicyCenter\modules\ant\build.xml -Dant.project.default-target=help -Dant.file.type.Guidewire product configuration environment=file -Dant.file.type.Guidewire Ant environment initialization=file -Dant.project.name=Guidewire product configuration environment 
+2020-09-10 16:28:45,463 [     58]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 46 ms 
+2020-09-10 16:28:45,506 [    101]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.4) in 43 ms 
+2020-09-10 16:28:45,517 [    112]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-09-10 16:28:45,529 [    124]   INFO -        #com.intellij.idea.Main - Using "FocusKiller" library to prevent focus stealing. 
+2020-09-10 16:28:46,669 [   1264]   INFO - llij.ide.plugins.PluginManager - 37 plugins initialized in 918 ms 
+2020-09-10 16:28:46,669 [   1264]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Ant Support (1.0), Copyright (8.1), GenerateToString (5.0), Git Integration (8.1), GitHub, IDEA CORE, Inspection Gadgets (1.0), Intention Power Pack (1.0), JUnit (1.0), JavaFX (1.0), Maven Integration, Properties Support, Subversion Integration (1.1) 
+2020-09-10 16:28:46,669 [   1264]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: GUnit (1.0-SNAPSHOT), Gosu (4.0-SNAPSHOT), Guidewire Internal API Inspector (1.0.0), Guidewire PC Studio (1.0), Guidewire Studio (1.0-SNAPSHOT), Guidewire Studio (Entity Codegen) (8.20.3) 
+2020-09-10 16:28:46,669 [   1264]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Android Designer, Android Support (10.0), Byte Code Viewer (0.1), CVS Integration (11), Commander (1.0.0), Eclipse Integration (3.0), Gradle, Groovy (9.0), I18n for Java, IntelliLang (8.0), Plugin DevKit (1.0), Task Management (1.0), TestNG-J (8.0), UI Designer, UI Designer (Core), XPathView + XSLT Support (4), XSLT-Debugger (1.4), hg4idea (10.0) 
+2020-09-10 16:28:47,303 [   1898]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted 
+2020-09-10 16:28:47,307 [   1902]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=3707305984 
+2020-09-10 16:28:47,379 [   1974]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: C:\Hastings\GW8\Guidewire\PolicyCenter\idea\bin\fsnotifier.exe 
+2020-09-10 16:28:47,920 [   2515]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2020-09-10 16:28:47,981 [   2576]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/project.default.xml file is null 
+2020-09-10 16:28:48,049 [   2644]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/filetypes.xml file is null 
+2020-09-10 16:28:48,141 [   2736]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 5), rebuilding... 
+2020-09-10 16:28:48,141 [   2736]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2020-09-10 16:28:48,165 [   2760]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2020-09-10 16:28:48,168 [   2763]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/options.xml file is null 
+2020-09-10 16:28:48,201 [   2796]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2020-09-10 16:28:48,204 [   2799]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/usage.statistics.xml file is null 
+2020-09-10 16:28:48,205 [   2800]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/statistics.application.usages.xml file is null 
+2020-09-10 16:28:48,259 [   2854]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/keymap.xml file is null 
+2020-09-10 16:28:48,422 [   3017]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2020-09-10 16:28:48,438 [   3033]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ide.general.xml file is null 
+2020-09-10 16:28:49,892 [   4487]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/stubIndex.xml file is null 
+2020-09-10 16:28:49,900 [   4495]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.xml file is null 
+2020-09-10 16:28:49,901 [   4496]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2020-09-10 16:28:49,903 [   4498]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2020-09-10 16:28:49,976 [   4571]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = C:/Hastings/GW8/Guidewire/PolicyCenter/idea/lib/idea.jar!/resources/html5-schema/html5.rnc 
+2020-09-10 16:28:49,976 [   4571]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = C:/Hastings/GW8/Guidewire/PolicyCenter/idea/lib/idea.jar!/resources/html5-schema/xhtml5.rnc 
+2020-09-10 16:28:50,122 [   4717]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/colors.scheme.xml file is null 
+2020-09-10 16:28:50,126 [   4721]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.codeinsight.xml file is null 
+2020-09-10 16:28:50,298 [   4893]   INFO - ellij.project.impl.ProjectImpl - 25 project components initialized in 310 ms 
+2020-09-10 16:28:50,299 [   4894]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2020-09-10 16:28:50,327 [   4922]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/jdk.table.xml file is null 
+2020-09-10 16:28:52,192 [   6787]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plainTextFiles.xml file is null 
+2020-09-10 16:28:52,280 [   6875]   INFO - pl.stores.ApplicationStoreImpl - 75 application components initialized in 5484 ms 
+2020-09-10 16:28:52,281 [   6876]   INFO - .intellij.idea.IdeaApplication - App initialization took 8660 ms 
+2020-09-10 16:28:52,927 [   7522]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/encodings.xml file is null 
+2020-09-10 16:28:52,990 [   7585]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/vcs.xml file is null 
+2020-09-10 16:28:53,124 [   7719]   INFO - CompilerWorkspaceConfiguration - Available processors: 8 
+2020-09-10 16:28:53,181 [   7776]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2020-09-10 16:28:53,211 [   7806]   INFO - ellij.project.impl.ProjectImpl - 129 project components initialized in 431 ms 
+2020-09-10 16:28:55,150 [   9745]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 1938 ms 
+2020-09-10 16:28:55,194 [   9789]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2020-09-10 16:28:55,541 [  10136]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/encoding.xml file is null 
+2020-09-10 16:29:02,960 [  17555]   INFO - .roots.impl.DirectoryIndexImpl - Directory index initialized in 6903 ms, indexed 9108 directories 
+2020-09-10 16:29:03,007 [  17602]   INFO - pl.PushedFilePropertiesUpdater - File properties pushed in 44 ms 
+2020-09-10 16:29:16,578 [  31173]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/debugger.renderers.xml file is null 
+2020-09-10 16:29:16,662 [  31257]   INFO -    #org.jetbrains.io.WebServer - We have tried to bind to 127.0.0.1 host but have got exception (Windows 8 6.2), so, try to check - are we really need to bind to 127.0.0.1 
+2020-09-10 16:29:16,715 [  31310]   INFO -    #org.jetbrains.io.WebServer - port check: current OS must be marked as normal 
+2020-09-10 16:29:16,722 [  31317]   INFO - jetbrains.ide.WebServerManager - web server started, port 63342 
+2020-09-10 16:29:17,320 [  31915]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 24639 ms 
+2020-09-10 16:29:19,600 [  34195]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 3003 ms 
+2020-09-10 16:29:19,600 [  34195]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 111692 files to update 
+2020-09-10 16:29:30,565 [  45160]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/file.template.settings.xml file is null 
+2020-09-10 16:31:00,454 [ 135049]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 100854 ms 
+2020-09-10 16:31:00,494 [ 135089]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/feature.usage.statistics.xml file is null 
+2020-09-10 16:31:48,701 [ 183296]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/studio_settings.xml file is null 
+2020-09-10 16:31:48,702 [ 183297]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/gosu_compiler_settings.xml file is null 
+2020-09-10 16:31:48,703 [ 183298]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/studio_metadata_editor_settings.xml file is null 
+2020-09-10 16:31:48,839 [ 183434]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/github_settings.xml file is null 
+2020-09-11 10:42:26,511 [65621106]   INFO - duler$ExecutionTimeCheckedTask - 50 ms execution limit failed for:com.intellij.openapi.wm.impl.status.MemoryUsagePanel$2@79ddeb03,40270239 
+2020-09-11 10:46:55,790 [65890385]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2020-09-11 10:46:55,809 [65890404]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2020-09-14 17:52:58,646 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-09-14 17:52:58,657 [     11]   INFO -        #com.intellij.idea.Main - IDE: Guidewire Studio (build #Studio-8.0, 20 May 2014 00:00) 
+2020-09-14 17:52:58,657 [     11]   INFO -        #com.intellij.idea.Main - OS: Windows 8 (6.2) 
+2020-09-14 17:52:58,657 [     11]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_25-b17 (Oracle Corporation) 
+2020-09-14 17:52:58,657 [     11]   INFO -        #com.intellij.idea.Main - JVM: 23.25-b01 (Oracle Corporation) 
+2020-09-14 17:52:58,662 [     16]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:../lib/boot.jar -XX:ReservedCodeCacheSize=64m -Dstudio.sdkroot=C:\Hastings\GW8\Guidewire\PolicyCenter -Didea.plugins.compatible.build=IC-129.713 -Dfile.encoding=UTF-8 -Dide.tooltip.dismissDelay=60000 -ea -Didea.properties.file=C:/Hastings/GW8/Guidewire/PolicyCenter/.idea/settings/idea.properties -Didea.platform.prefix=Studio -Xms2000m -Xmx4000m -XX:MaxPermSize=500m -Dant.file=C:\Hastings\GW8\Guidewire\PolicyCenter\modules\ant\build.xml -Dant.project.invoked-targets=studio -Dant.file.type=file -Dant.file.Guidewire Ant environment initialization=C:\Hastings\GW8\Guidewire\PolicyCenter\modules\ant\init.xml -Dant.file.Guidewire product configuration environment=C:\Hastings\GW8\Guidewire\PolicyCenter\modules\ant\build.xml -Dant.project.default-target=help -Dant.file.type.Guidewire product configuration environment=file -Dant.file.type.Guidewire Ant environment initialization=file -Dant.project.name=Guidewire product configuration environment 
+2020-09-14 17:52:58,774 [    128]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 111 ms 
+2020-09-14 17:52:58,910 [    264]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.4) in 135 ms 
+2020-09-14 17:52:58,925 [    279]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-09-14 17:52:58,941 [    295]   INFO -        #com.intellij.idea.Main - Using "FocusKiller" library to prevent focus stealing. 
+2020-09-14 17:53:00,777 [   2131]   INFO - llij.ide.plugins.PluginManager - 37 plugins initialized in 1342 ms 
+2020-09-14 17:53:00,778 [   2132]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Ant Support (1.0), Copyright (8.1), GenerateToString (5.0), Git Integration (8.1), GitHub, IDEA CORE, Inspection Gadgets (1.0), Intention Power Pack (1.0), JUnit (1.0), JavaFX (1.0), Maven Integration, Properties Support, Subversion Integration (1.1) 
+2020-09-14 17:53:00,778 [   2132]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: GUnit (1.0-SNAPSHOT), Gosu (4.0-SNAPSHOT), Guidewire Internal API Inspector (1.0.0), Guidewire PC Studio (1.0), Guidewire Studio (1.0-SNAPSHOT), Guidewire Studio (Entity Codegen) (8.20.3) 
+2020-09-14 17:53:00,778 [   2132]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Android Designer, Android Support (10.0), Byte Code Viewer (0.1), CVS Integration (11), Commander (1.0.0), Eclipse Integration (3.0), Gradle, Groovy (9.0), I18n for Java, IntelliLang (8.0), Plugin DevKit (1.0), Task Management (1.0), TestNG-J (8.0), UI Designer, UI Designer (Core), XPathView + XSLT Support (4), XSLT-Debugger (1.4), hg4idea (10.0) 
+2020-09-14 17:53:02,608 [   3962]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=3707305984 
+2020-09-14 17:53:02,692 [   4046]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: C:\Hastings\GW8\Guidewire\PolicyCenter\idea\bin\fsnotifier.exe 
+2020-09-14 17:53:03,375 [   4729]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2020-09-14 17:53:03,478 [   4832]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/project.default.xml file is null 
+2020-09-14 17:53:03,587 [   4941]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/filetypes.xml file is null 
+2020-09-14 17:53:03,771 [   5125]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2020-09-14 17:53:03,776 [   5130]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/options.xml file is null 
+2020-09-14 17:53:03,815 [   5169]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2020-09-14 17:53:03,818 [   5172]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/usage.statistics.xml file is null 
+2020-09-14 17:53:03,820 [   5174]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/statistics.application.usages.xml file is null 
+2020-09-14 17:53:03,891 [   5245]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/keymap.xml file is null 
+2020-09-14 17:53:04,123 [   5477]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2020-09-14 17:53:04,150 [   5504]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ide.general.xml file is null 
+2020-09-14 17:53:05,615 [   6969]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/stubIndex.xml file is null 
+2020-09-14 17:53:05,626 [   6980]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.xml file is null 
+2020-09-14 17:53:05,628 [   6982]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2020-09-14 17:53:05,633 [   6987]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2020-09-14 17:53:05,789 [   7143]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = C:/Hastings/GW8/Guidewire/PolicyCenter/idea/lib/idea.jar!/resources/html5-schema/html5.rnc 
+2020-09-14 17:53:05,790 [   7144]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = C:/Hastings/GW8/Guidewire/PolicyCenter/idea/lib/idea.jar!/resources/html5-schema/xhtml5.rnc 
+2020-09-14 17:53:06,114 [   7468]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/colors.scheme.xml file is null 
+2020-09-14 17:53:06,117 [   7471]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.codeinsight.xml file is null 
+2020-09-14 17:53:06,351 [   7705]   INFO - ellij.project.impl.ProjectImpl - 25 project components initialized in 540 ms 
+2020-09-14 17:53:06,351 [   7705]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2020-09-14 17:53:06,390 [   7744]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/jdk.table.xml file is null 
+2020-09-14 17:53:09,399 [  10753]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plainTextFiles.xml file is null 
+2020-09-14 17:53:09,523 [  10877]   INFO - pl.stores.ApplicationStoreImpl - 75 application components initialized in 8366 ms 
+2020-09-14 17:53:09,525 [  10879]   INFO - .intellij.idea.IdeaApplication - App initialization took 14128 ms 
+2020-09-14 17:53:10,463 [  11817]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/encodings.xml file is null 
+2020-09-14 17:53:10,601 [  11955]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/vcs.xml file is null 
+2020-09-14 17:53:10,865 [  12219]   INFO - CompilerWorkspaceConfiguration - Available processors: 8 
+2020-09-14 17:53:11,014 [  12368]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2020-09-14 17:53:11,067 [  12421]   INFO - ellij.project.impl.ProjectImpl - 129 project components initialized in 814 ms 
+2020-09-14 17:53:13,195 [  14549]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 2128 ms 
+2020-09-14 17:53:13,221 [  14575]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2020-09-14 17:53:13,658 [  15012]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/encoding.xml file is null 
+2020-09-14 17:53:15,046 [  16400]   INFO - .roots.impl.DirectoryIndexImpl - Directory index initialized in 604 ms, indexed 9108 directories 
+2020-09-14 17:53:15,063 [  16417]   INFO - pl.PushedFilePropertiesUpdater - File properties pushed in 16 ms 
+2020-09-14 17:53:30,126 [  31480]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/debugger.renderers.xml file is null 
+2020-09-14 17:53:30,243 [  31597]   INFO -    #org.jetbrains.io.WebServer - We have tried to bind to 127.0.0.1 host but have got exception (Windows 8 6.2), so, try to check - are we really need to bind to 127.0.0.1 
+2020-09-14 17:53:30,318 [  31672]   INFO -    #org.jetbrains.io.WebServer - port check: current OS must be marked as normal 
+2020-09-14 17:53:30,324 [  31678]   INFO - jetbrains.ide.WebServerManager - web server started, port 63342 
+2020-09-14 17:53:30,980 [  32334]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 20756 ms 
+2020-09-14 17:53:31,481 [  32835]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 1329 ms 
+2020-09-14 17:53:31,481 [  32835]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2020-09-14 17:53:31,482 [  32836]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 1 ms 
+2020-09-14 17:53:31,507 [  32861]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/feature.usage.statistics.xml file is null 
+2020-09-14 17:53:44,847 [  46201]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/file.template.settings.xml file is null 
+2020-09-14 17:53:51,403 [  52757]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2020-09-14 17:54:12,544 [  73898]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/studio_settings.xml file is null 
+2020-09-14 17:54:15,075 [  76429]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2020-09-14 17:54:15,076 [  76430]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2020-09-14 17:54:15,127 [  76481]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/code.style.schemes.xml file is null 
+2020-09-14 17:54:17,293 [  78647]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/cachedDictionary.xml file is null 
+2020-09-14 18:11:01,141 [1082495]   INFO -    #org.jetbrains.io.WebServer - web server stopped 
+2020-09-14 18:11:01,176 [1082530]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2020-09-14 18:11:01,219 [1082573]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2020-09-14 18:11:01,219 [1082573]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2020-09-14 18:11:01,220 [1082574]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2020-09-14 18:11:01,220 [1082574]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2020-09-14 18:11:01,224 [1082578]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2020-09-14 18:11:01,245 [1082599]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated. 
+2020-09-14 18:11:01,298 [1082652]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2020-09-14 18:11:01,317 [1082671]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2020-09-14 18:11:01,320 [1082674]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2020-09-14 19:41:38,617 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-09-14 19:41:38,625 [      8]   INFO -        #com.intellij.idea.Main - IDE: Guidewire Studio (build #Studio-8.0, 20 May 2014 00:00) 
+2020-09-14 19:41:38,625 [      8]   INFO -        #com.intellij.idea.Main - OS: Windows 8 (6.2) 
+2020-09-14 19:41:38,625 [      8]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_25-b17 (Oracle Corporation) 
+2020-09-14 19:41:38,625 [      8]   INFO -        #com.intellij.idea.Main - JVM: 23.25-b01 (Oracle Corporation) 
+2020-09-14 19:41:38,628 [     11]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:../lib/boot.jar -XX:ReservedCodeCacheSize=64m -Dstudio.sdkroot=C:\Hastings\GW8\Guidewire\PolicyCenter -Didea.plugins.compatible.build=IC-129.713 -Dfile.encoding=UTF-8 -Dide.tooltip.dismissDelay=60000 -ea -Didea.properties.file=C:/Hastings/GW8/Guidewire/PolicyCenter/.idea/settings/idea.properties -Didea.platform.prefix=Studio -Xms2000m -Xmx4000m -XX:MaxPermSize=500m -Dant.file=C:\Hastings\GW8\Guidewire\PolicyCenter\modules\ant\build.xml -Dant.project.invoked-targets=studio -Dant.file.type=file -Dant.file.Guidewire Ant environment initialization=C:\Hastings\GW8\Guidewire\PolicyCenter\modules\ant\init.xml -Dant.file.Guidewire product configuration environment=C:\Hastings\GW8\Guidewire\PolicyCenter\modules\ant\build.xml -Dant.project.default-target=help -Dant.file.type.Guidewire product configuration environment=file -Dant.file.type.Guidewire Ant environment initialization=file -Dant.project.name=Guidewire product configuration environment 
+2020-09-14 19:41:38,704 [     87]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 75 ms 
+2020-09-14 19:41:38,796 [    179]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.4) in 92 ms 
+2020-09-14 19:41:38,801 [    184]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-09-14 19:41:38,812 [    195]   INFO -        #com.intellij.idea.Main - Using "FocusKiller" library to prevent focus stealing. 
+2020-09-14 19:41:39,900 [   1283]   INFO - llij.ide.plugins.PluginManager - 37 plugins initialized in 920 ms 
+2020-09-14 19:41:39,900 [   1283]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Ant Support (1.0), Copyright (8.1), GenerateToString (5.0), Git Integration (8.1), GitHub, IDEA CORE, Inspection Gadgets (1.0), Intention Power Pack (1.0), JUnit (1.0), JavaFX (1.0), Maven Integration, Properties Support, Subversion Integration (1.1) 
+2020-09-14 19:41:39,900 [   1283]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: GUnit (1.0-SNAPSHOT), Gosu (4.0-SNAPSHOT), Guidewire Internal API Inspector (1.0.0), Guidewire PC Studio (1.0), Guidewire Studio (1.0-SNAPSHOT), Guidewire Studio (Entity Codegen) (8.20.3) 
+2020-09-14 19:41:39,900 [   1283]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Android Designer, Android Support (10.0), Byte Code Viewer (0.1), CVS Integration (11), Commander (1.0.0), Eclipse Integration (3.0), Gradle, Groovy (9.0), I18n for Java, IntelliLang (8.0), Plugin DevKit (1.0), Task Management (1.0), TestNG-J (8.0), UI Designer, UI Designer (Core), XPathView + XSLT Support (4), XSLT-Debugger (1.4), hg4idea (10.0) 
+2020-09-14 19:41:40,467 [   1850]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=3707305984 
+2020-09-14 19:41:40,524 [   1907]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: C:\Hastings\GW8\Guidewire\PolicyCenter\idea\bin\fsnotifier.exe 
+2020-09-14 19:41:41,012 [   2395]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2020-09-14 19:41:41,285 [   2668]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2020-09-14 19:41:42,140 [   3523]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2020-09-14 19:41:42,142 [   3525]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2020-09-14 19:41:44,163 [   5546]   INFO - pl.stores.ApplicationStoreImpl - 75 application components initialized in 4149 ms 
+2020-09-14 19:41:44,164 [   5547]   INFO - .intellij.idea.IdeaApplication - App initialization took 7492 ms 
+2020-09-14 19:41:44,175 [   5558]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2020-09-14 19:41:45,697 [   7080]   INFO - CompilerWorkspaceConfiguration - Available processors: 8 
+2020-09-14 19:41:45,753 [   7136]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plainTextFiles.xml file is null 
+2020-09-14 19:41:45,810 [   7193]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2020-09-14 19:41:45,832 [   7215]   INFO - ellij.project.impl.ProjectImpl - 129 project components initialized in 717 ms 
+2020-09-14 19:41:45,928 [   7311]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 96 ms 
+2020-09-14 19:41:46,666 [   8049]   INFO - .roots.impl.DirectoryIndexImpl - Directory index initialized in 475 ms, indexed 9108 directories 
+2020-09-14 19:41:46,694 [   8077]   INFO - pl.PushedFilePropertiesUpdater - File properties pushed in 26 ms 
+2020-09-14 19:41:56,539 [  17922]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2020-09-14 19:41:56,616 [  17999]   INFO -    #org.jetbrains.io.WebServer - We have tried to bind to 127.0.0.1 host but have got exception (Windows 8 6.2), so, try to check - are we really need to bind to 127.0.0.1 
+2020-09-14 19:41:56,663 [  18046]   INFO -    #org.jetbrains.io.WebServer - port check: current OS must be marked as normal 
+2020-09-14 19:41:56,665 [  18048]   INFO - jetbrains.ide.WebServerManager - web server started, port 63343 
+2020-09-14 19:41:57,534 [  18917]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 1277 ms 
+2020-09-14 19:41:57,534 [  18917]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2020-09-14 19:41:57,535 [  18918]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 1 ms 
+2020-09-14 19:41:57,719 [  19102]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 12621 ms 
+2020-09-14 19:41:58,044 [  19427]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2020-09-14 19:41:58,045 [  19428]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2020-09-14 19:42:06,592 [  27975]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/studio_metadata_editor_settings.xml file is null 
+2020-09-14 19:42:27,630 [  49013]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/emmet.xml file is null 
+2020-09-14 19:42:30,621 [  52004]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/intentionSettings.xml file is null 
+2020-09-14 19:42:42,210 [  63593]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/cachedDictionary.xml file is null 
+2020-09-15 09:32:54,500 [49875883]   INFO - duler$ExecutionTimeCheckedTask - 50 ms execution limit failed for:com.intellij.openapi.wm.impl.status.MemoryUsagePanel$2@651e87d2,38853069 
+2020-09-15 12:11:07,440 [59368823]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/gosu_compiler_settings.xml file is null 
+2020-09-15 12:11:07,536 [59368919]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/github_settings.xml file is null 
+2020-09-15 12:30:10,907 [60512290]   WARN - figurations.GeneralCommandLine - Cannot run program "git.cmd": CreateProcess error=2, The system cannot find the file specified 
+java.io.IOException: Cannot run program "git.cmd": CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1041)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:235)
+	at git4idea.config.GitExecutableDetector.runs(GitExecutableDetector.java:220)
+	at git4idea.config.GitExecutableDetector.checkSoleExecutable(GitExecutableDetector.java:173)
+	at git4idea.config.GitExecutableDetector.detectForWindows(GitExecutableDetector.java:95)
+	at git4idea.config.GitExecutableDetector.detect(GitExecutableDetector.java:62)
+	at git4idea.config.GitVcsApplicationSettings.getPathToGit(GitVcsApplicationSettings.java:63)
+	at git4idea.GitVcs.checkExecutableAndVersion(GitVcs.java:352)
+	at git4idea.GitVcs.activate(GitVcs.java:332)
+	at com.intellij.openapi.vcs.StartedActivated$3.run(StartedActivated.java:53)
+	at com.intellij.openapi.vcs.StartedActivated.callImpl(StartedActivated.java:99)
+	at com.intellij.openapi.vcs.StartedActivated.doActivate(StartedActivated.java:112)
+	at com.intellij.openapi.vcs.impl.projectlevelman.NewMappings$MyVcsActivator.activate(NewMappings.java:505)
+	at com.intellij.openapi.vcs.impl.projectlevelman.NewMappings.keepActiveVcs(NewMappings.java:166)
+	at com.intellij.openapi.vcs.impl.projectlevelman.NewMappings.setDirectoryMappings(NewMappings.java:203)
+	at com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl.setDirectoryMappings(ProjectLevelVcsManagerImpl.java:519)
+	at com.intellij.openapi.vcs.configurable.VcsDirectoryConfigurationPanel.apply(VcsDirectoryConfigurationPanel.java:500)
+	at com.intellij.openapi.vcs.configurable.VcsManagerConfigurable.apply(VcsManagerConfigurable.java:71)
+	at com.intellij.openapi.options.newEditor.OptionsEditor.apply(OptionsEditor.java:762)
+	at com.intellij.openapi.options.newEditor.OptionsEditorDialog$ApplyAction.actionPerformed(OptionsEditorDialog.java:274)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:154)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:182)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:221)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:219)
+	at java.awt.Dialog.show(Dialog.java:1082)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:706)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:399)
+	at com.intellij.openapi.ui.DialogWrapper.showAndGetOk(DialogWrapper.java:1460)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1435)
+	at com.intellij.ide.actions.ShowSettingsUtilImpl.showSettingsDialog(ShowSettingsUtilImpl.java:104)
+	at git4idea.roots.GitRootProblemNotifier$MyNotificationListener.hyperlinkUpdate(GitRootProblemNotifier.java:214)
+	at com.intellij.notification.EventLog$NotificationHyperlinkInfo.navigate(EventLog.java:427)
+	at com.intellij.execution.impl.EditorHyperlinkSupport$2.mouseClicked(EditorHyperlinkSupport.java:90)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.runMouseClickedCommand(EditorImpl.java:5322)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.mouseReleased(EditorImpl.java:5260)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:376)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:136)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1022)
+	... 104 more
+2020-09-15 12:30:11,054 [60512437]   WARN - figurations.GeneralCommandLine - Cannot run program "git.exe": CreateProcess error=2, The system cannot find the file specified 
+java.io.IOException: Cannot run program "git.exe": CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1041)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:235)
+	at git4idea.config.GitExecutableValidator.isExecutableValid(GitExecutableValidator.java:63)
+	at com.intellij.execution.ExecutableValidator.isExecutableValid(ExecutableValidator.java:197)
+	at git4idea.GitVcs.checkExecutableAndVersion(GitVcs.java:355)
+	at git4idea.GitVcs.activate(GitVcs.java:332)
+	at com.intellij.openapi.vcs.StartedActivated$3.run(StartedActivated.java:53)
+	at com.intellij.openapi.vcs.StartedActivated.callImpl(StartedActivated.java:99)
+	at com.intellij.openapi.vcs.StartedActivated.doActivate(StartedActivated.java:112)
+	at com.intellij.openapi.vcs.impl.projectlevelman.NewMappings$MyVcsActivator.activate(NewMappings.java:505)
+	at com.intellij.openapi.vcs.impl.projectlevelman.NewMappings.keepActiveVcs(NewMappings.java:166)
+	at com.intellij.openapi.vcs.impl.projectlevelman.NewMappings.setDirectoryMappings(NewMappings.java:203)
+	at com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl.setDirectoryMappings(ProjectLevelVcsManagerImpl.java:519)
+	at com.intellij.openapi.vcs.configurable.VcsDirectoryConfigurationPanel.apply(VcsDirectoryConfigurationPanel.java:500)
+	at com.intellij.openapi.vcs.configurable.VcsManagerConfigurable.apply(VcsManagerConfigurable.java:71)
+	at com.intellij.openapi.options.newEditor.OptionsEditor.apply(OptionsEditor.java:762)
+	at com.intellij.openapi.options.newEditor.OptionsEditorDialog$ApplyAction.actionPerformed(OptionsEditorDialog.java:274)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:154)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:182)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:221)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:219)
+	at java.awt.Dialog.show(Dialog.java:1082)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:706)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:399)
+	at com.intellij.openapi.ui.DialogWrapper.showAndGetOk(DialogWrapper.java:1460)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1435)
+	at com.intellij.ide.actions.ShowSettingsUtilImpl.showSettingsDialog(ShowSettingsUtilImpl.java:104)
+	at git4idea.roots.GitRootProblemNotifier$MyNotificationListener.hyperlinkUpdate(GitRootProblemNotifier.java:214)
+	at com.intellij.notification.EventLog$NotificationHyperlinkInfo.navigate(EventLog.java:427)
+	at com.intellij.execution.impl.EditorHyperlinkSupport$2.mouseClicked(EditorHyperlinkSupport.java:90)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.runMouseClickedCommand(EditorImpl.java:5322)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.mouseReleased(EditorImpl.java:5260)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:376)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:136)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1022)
+	... 101 more
+2020-09-15 12:30:11,139 [60512522]   WARN - figurations.GeneralCommandLine - Cannot run program "git.cmd": CreateProcess error=2, The system cannot find the file specified 
+java.io.IOException: Cannot run program "git.cmd": CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1041)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:235)
+	at git4idea.config.GitExecutableDetector.runs(GitExecutableDetector.java:220)
+	at git4idea.config.GitExecutableDetector.checkSoleExecutable(GitExecutableDetector.java:173)
+	at git4idea.config.GitExecutableDetector.detectForWindows(GitExecutableDetector.java:95)
+	at git4idea.config.GitExecutableDetector.detect(GitExecutableDetector.java:62)
+	at git4idea.GitVcs.checkExecutableAndVersion(GitVcs.java:356)
+	at git4idea.GitVcs.activate(GitVcs.java:332)
+	at com.intellij.openapi.vcs.StartedActivated$3.run(StartedActivated.java:53)
+	at com.intellij.openapi.vcs.StartedActivated.callImpl(StartedActivated.java:99)
+	at com.intellij.openapi.vcs.StartedActivated.doActivate(StartedActivated.java:112)
+	at com.intellij.openapi.vcs.impl.projectlevelman.NewMappings$MyVcsActivator.activate(NewMappings.java:505)
+	at com.intellij.openapi.vcs.impl.projectlevelman.NewMappings.keepActiveVcs(NewMappings.java:166)
+	at com.intellij.openapi.vcs.impl.projectlevelman.NewMappings.setDirectoryMappings(NewMappings.java:203)
+	at com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl.setDirectoryMappings(ProjectLevelVcsManagerImpl.java:519)
+	at com.intellij.openapi.vcs.configurable.VcsDirectoryConfigurationPanel.apply(VcsDirectoryConfigurationPanel.java:500)
+	at com.intellij.openapi.vcs.configurable.VcsManagerConfigurable.apply(VcsManagerConfigurable.java:71)
+	at com.intellij.openapi.options.newEditor.OptionsEditor.apply(OptionsEditor.java:762)
+	at com.intellij.openapi.options.newEditor.OptionsEditorDialog$ApplyAction.actionPerformed(OptionsEditorDialog.java:274)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:154)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:182)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:221)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:219)
+	at java.awt.Dialog.show(Dialog.java:1082)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:706)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:399)
+	at com.intellij.openapi.ui.DialogWrapper.showAndGetOk(DialogWrapper.java:1460)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1435)
+	at com.intellij.ide.actions.ShowSettingsUtilImpl.showSettingsDialog(ShowSettingsUtilImpl.java:104)
+	at git4idea.roots.GitRootProblemNotifier$MyNotificationListener.hyperlinkUpdate(GitRootProblemNotifier.java:214)
+	at com.intellij.notification.EventLog$NotificationHyperlinkInfo.navigate(EventLog.java:427)
+	at com.intellij.execution.impl.EditorHyperlinkSupport$2.mouseClicked(EditorHyperlinkSupport.java:90)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.runMouseClickedCommand(EditorImpl.java:5322)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.mouseReleased(EditorImpl.java:5260)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:376)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:136)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1022)
+	... 103 more
+2020-09-15 12:30:11,208 [60512591]   WARN - figurations.GeneralCommandLine - Cannot run program "git.exe": CreateProcess error=2, The system cannot find the file specified 
+java.io.IOException: Cannot run program "git.exe": CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1041)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:235)
+	at git4idea.config.GitExecutableValidator.isExecutableValid(GitExecutableValidator.java:63)
+	at com.intellij.execution.ExecutableValidator.checkExecutableAndNotifyIfNeeded(ExecutableValidator.java:152)
+	at git4idea.GitVcs.checkExecutableAndVersion(GitVcs.java:363)
+	at git4idea.GitVcs.activate(GitVcs.java:332)
+	at com.intellij.openapi.vcs.StartedActivated$3.run(StartedActivated.java:53)
+	at com.intellij.openapi.vcs.StartedActivated.callImpl(StartedActivated.java:99)
+	at com.intellij.openapi.vcs.StartedActivated.doActivate(StartedActivated.java:112)
+	at com.intellij.openapi.vcs.impl.projectlevelman.NewMappings$MyVcsActivator.activate(NewMappings.java:505)
+	at com.intellij.openapi.vcs.impl.projectlevelman.NewMappings.keepActiveVcs(NewMappings.java:166)
+	at com.intellij.openapi.vcs.impl.projectlevelman.NewMappings.setDirectoryMappings(NewMappings.java:203)
+	at com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl.setDirectoryMappings(ProjectLevelVcsManagerImpl.java:519)
+	at com.intellij.openapi.vcs.configurable.VcsDirectoryConfigurationPanel.apply(VcsDirectoryConfigurationPanel.java:500)
+	at com.intellij.openapi.vcs.configurable.VcsManagerConfigurable.apply(VcsManagerConfigurable.java:71)
+	at com.intellij.openapi.options.newEditor.OptionsEditor.apply(OptionsEditor.java:762)
+	at com.intellij.openapi.options.newEditor.OptionsEditorDialog$ApplyAction.actionPerformed(OptionsEditorDialog.java:274)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:154)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:182)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:221)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:219)
+	at java.awt.Dialog.show(Dialog.java:1082)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:706)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:399)
+	at com.intellij.openapi.ui.DialogWrapper.showAndGetOk(DialogWrapper.java:1460)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1435)
+	at com.intellij.ide.actions.ShowSettingsUtilImpl.showSettingsDialog(ShowSettingsUtilImpl.java:104)
+	at git4idea.roots.GitRootProblemNotifier$MyNotificationListener.hyperlinkUpdate(GitRootProblemNotifier.java:214)
+	at com.intellij.notification.EventLog$NotificationHyperlinkInfo.navigate(EventLog.java:427)
+	at com.intellij.execution.impl.EditorHyperlinkSupport$2.mouseClicked(EditorHyperlinkSupport.java:90)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.runMouseClickedCommand(EditorImpl.java:5322)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.mouseReleased(EditorImpl.java:5260)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:376)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:136)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1022)
+	... 101 more
+2020-09-15 12:30:11,277 [60512660]   INFO - .execution.ExecutableValidator - Git executable is not valid: git.exe 
+2020-09-15 12:30:11,979 [60513362]   WARN - figurations.GeneralCommandLine - Cannot run program "git.exe" (in directory "C:\Hastings\GW8\Guidewire\PolicyCenter\modules\GItRepo"): CreateProcess error=2, The system cannot find the file specified 
+java.io.IOException: Cannot run program "git.exe" (in directory "C:\Hastings\GW8\Guidewire\PolicyCenter\modules\GItRepo"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1041)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:235)
+	at git4idea.commands.GitTextHandler.createProcess(GitTextHandler.java:122)
+	at git4idea.commands.GitTextHandler.startProcess(GitTextHandler.java:57)
+	at git4idea.commands.GitHandler.start(GitHandler.java:449)
+	at git4idea.commands.GitHandler.runInCurrentThread(GitHandler.java:782)
+	at git4idea.commands.GitSimpleHandler.run(GitSimpleHandler.java:231)
+	at git4idea.status.GitOldChangesCollector.updateIndex(GitOldChangesCollector.java:139)
+	at git4idea.status.GitOldChangesCollector.<init>(GitOldChangesCollector.java:128)
+	at git4idea.status.GitOldChangesCollector.collect(GitOldChangesCollector.java:109)
+	at git4idea.status.GitChangeProvider.getChanges(GitChangeProvider.java:84)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.actualUpdate(ChangeListManagerImpl.java:694)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.iterateScopes(ChangeListManagerImpl.java:604)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.updateImmediately(ChangeListManagerImpl.java:485)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.access$1100(ChangeListManagerImpl.java:70)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl$ActualUpdater.run(ChangeListManagerImpl.java:386)
+	at com.intellij.openapi.vcs.changes.UpdateRequestsQueue$MyRunnable.run(UpdateRequestsQueue.java:278)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:376)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:136)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1022)
+	... 24 more
+2020-09-15 12:30:11,979 [60513362]   INFO -                     #GitStatus - Process failed to start (git.exe update-index --refresh --ignore-missing): com.intellij.execution.process.ProcessNotCreatedException: Cannot run program "git.exe" (in directory "C:\Hastings\GW8\Guidewire\PolicyCenter\modules\GItRepo"): CreateProcess error=2, The system cannot find the file specified Process failed to start (git.exe update-index --refresh --ignore-missing): com.intellij.execution.process.ProcessNotCreatedException: Cannot run program "git.exe" (in directory "C:\Hastings\GW8\Guidewire\PolicyCenter\modules\GItRepo"): CreateProcess error=2, The system cannot find the file specified 
+com.intellij.openapi.vcs.VcsException: Process failed to start (git.exe update-index --refresh --ignore-missing): com.intellij.execution.process.ProcessNotCreatedException: Cannot run program "git.exe" (in directory "C:\Hastings\GW8\Guidewire\PolicyCenter\modules\GItRepo"): CreateProcess error=2, The system cannot find the file specified Process failed to start (git.exe update-index --refresh --ignore-missing): com.intellij.execution.process.ProcessNotCreatedException: Cannot run program "git.exe" (in directory "C:\Hastings\GW8\Guidewire\PolicyCenter\modules\GItRepo"): CreateProcess error=2, The system cannot find the file specified
+	at git4idea.commands.GitSimpleHandler$1.startFailed(GitSimpleHandler.java:228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.util.EventDispatcher.dispatch(EventDispatcher.java:89)
+	at com.intellij.util.EventDispatcher.access$100(EventDispatcher.java:34)
+	at com.intellij.util.EventDispatcher$1.invoke(EventDispatcher.java:66)
+	at com.sun.proxy.$Proxy88.startFailed(Unknown Source)
+	at git4idea.commands.GitHandler.start(GitHandler.java:454)
+	at git4idea.commands.GitHandler.runInCurrentThread(GitHandler.java:782)
+	at git4idea.commands.GitSimpleHandler.run(GitSimpleHandler.java:231)
+	at git4idea.status.GitOldChangesCollector.updateIndex(GitOldChangesCollector.java:139)
+	at git4idea.status.GitOldChangesCollector.<init>(GitOldChangesCollector.java:128)
+	at git4idea.status.GitOldChangesCollector.collect(GitOldChangesCollector.java:109)
+	at git4idea.status.GitChangeProvider.getChanges(GitChangeProvider.java:84)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.actualUpdate(ChangeListManagerImpl.java:694)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.iterateScopes(ChangeListManagerImpl.java:604)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.updateImmediately(ChangeListManagerImpl.java:485)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.access$1100(ChangeListManagerImpl.java:70)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl$ActualUpdater.run(ChangeListManagerImpl.java:386)
+	at com.intellij.openapi.vcs.changes.UpdateRequestsQueue$MyRunnable.run(UpdateRequestsQueue.java:278)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: com.intellij.execution.process.ProcessNotCreatedException: Cannot run program "git.exe" (in directory "C:\Hastings\GW8\Guidewire\PolicyCenter\modules\GItRepo"): CreateProcess error=2, The system cannot find the file specified
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:239)
+	at git4idea.commands.GitTextHandler.createProcess(GitTextHandler.java:122)
+	at git4idea.commands.GitTextHandler.startProcess(GitTextHandler.java:57)
+	at git4idea.commands.GitHandler.start(GitHandler.java:449)
+	... 20 more
+Caused by: java.io.IOException: Cannot run program "git.exe" (in directory "C:\Hastings\GW8\Guidewire\PolicyCenter\modules\GItRepo"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1041)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:235)
+	... 23 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:376)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:136)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1022)
+	... 24 more
+2020-09-15 12:30:11,995 [60513378]   WARN - figurations.GeneralCommandLine - Cannot run program "git.exe": CreateProcess error=2, The system cannot find the file specified 
+java.io.IOException: Cannot run program "git.exe": CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1041)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:235)
+	at git4idea.config.GitExecutableValidator.isExecutableValid(GitExecutableValidator.java:63)
+	at com.intellij.execution.ExecutableValidator.checkExecutableAndNotifyIfNeeded(ExecutableValidator.java:152)
+	at git4idea.config.GitExecutableValidator.showNotificationOrThrow(GitExecutableValidator.java:79)
+	at git4idea.status.GitChangeProvider.getChanges(GitChangeProvider.java:105)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.actualUpdate(ChangeListManagerImpl.java:694)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.iterateScopes(ChangeListManagerImpl.java:604)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.updateImmediately(ChangeListManagerImpl.java:485)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.access$1100(ChangeListManagerImpl.java:70)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl$ActualUpdater.run(ChangeListManagerImpl.java:386)
+	at com.intellij.openapi.vcs.changes.UpdateRequestsQueue$MyRunnable.run(UpdateRequestsQueue.java:278)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:376)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:136)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1022)
+	... 19 more
+2020-09-15 12:30:12,042 [60513425]   INFO - .execution.ExecutableValidator - Git executable is not valid: git.exe 
+2020-09-15 13:13:36,345 [63117728]   WARN - figurations.GeneralCommandLine - Cannot run program "git.exe": CreateProcess error=2, The system cannot find the file specified 
+java.io.IOException: Cannot run program "git.exe": CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1041)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:235)
+	at git4idea.config.GitExecutableValidator.isExecutableValid(GitExecutableValidator.java:63)
+	at com.intellij.execution.ExecutableValidator.showSettingsAndExpireIfFixed(ExecutableValidator.java:133)
+	at com.intellij.execution.ExecutableValidator.access$400(ExecutableValidator.java:45)
+	at com.intellij.execution.ExecutableValidator$ExecutableNotValidNotification$1.hyperlinkUpdate(ExecutableValidator.java:205)
+	at com.intellij.notification.EventLog$NotificationHyperlinkInfo.navigate(EventLog.java:427)
+	at com.intellij.execution.impl.EditorHyperlinkSupport$2.mouseClicked(EditorHyperlinkSupport.java:90)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.runMouseClickedCommand(EditorImpl.java:5322)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.mouseReleased(EditorImpl.java:5260)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:376)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:136)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1022)
+	... 43 more
+2020-09-15 13:13:40,769 [63122152]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plugin_ui.xml file is null 
+2020-09-15 13:15:51,342 [63252725]   INFO - llij.help.impl.HelpManagerImpl - Failed to load help set from 'jar:file:///C:\Hastings\GW8\Guidewire\PolicyCenter\idea\help\ideahelp.jar!/idea/Help.hs' 
+javax.help.HelpSetException: Could not parse
+Got an IOException (C:\Hastings\GW8\Guidewire\PolicyCenter\idea\help\ideahelp.jar (The system cannot find the path specified))
+Parsing failed for null
+	at javax.help.HelpSet.<init>(HelpSet.java:146)
+	at com.intellij.help.impl.HelpManagerImpl.loadHelpSet(HelpManagerImpl.java:106)
+	at com.intellij.help.impl.HelpManagerImpl.createHelpSet(HelpManagerImpl.java:80)
+	at com.intellij.help.impl.HelpManagerImpl.invokeHelp(HelpManagerImpl.java:50)
+	at com.intellij.ide.actions.HelpTopicsAction.actionPerformed(HelpTopicsAction.java:26)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:162)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem$ActionTransmitter$1.run(ActionMenuItem.java:259)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.runOnOwnContext(FocusManagerImpl.java:892)
+	at com.intellij.openapi.wm.impl.IdeFocusManagerImpl.runOnOwnContext(IdeFocusManagerImpl.java:114)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem$ActionTransmitter.actionPerformed(ActionMenuItem.java:230)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem.fireActionPerformed(ActionMenuItem.java:104)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI.doClick(BegMenuItemUI.java:512)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI.access$300(BegMenuItemUI.java:44)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI$MyMouseInputHandler.mouseReleased(BegMenuItemUI.java:532)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2020-09-15 13:57:02,025 [65723408]   INFO - ellij.vfs.persistent.FSRecords - Creating VFS corruption marker; Trace=
+java.lang.Exception
+	at com.intellij.openapi.vfs.newvfs.persistent.FSRecords$DbConnection.createBrokenMarkerFile(FSRecords.java:160)
+	at com.intellij.openapi.vfs.newvfs.persistent.FSRecords$DbConnection.access$2100(FSRecords.java:105)
+	at com.intellij.openapi.vfs.newvfs.persistent.FSRecords.invalidateCaches(FSRecords.java:1413)
+	at com.intellij.ide.actions.InvalidateCachesAction.actionPerformed(InvalidateCachesAction.java:47)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:162)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem$ActionTransmitter$1.run(ActionMenuItem.java:259)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.runOnOwnContext(FocusManagerImpl.java:892)
+	at com.intellij.openapi.wm.impl.IdeFocusManagerImpl.runOnOwnContext(IdeFocusManagerImpl.java:114)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem$ActionTransmitter.actionPerformed(ActionMenuItem.java:230)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem.fireActionPerformed(ActionMenuItem.java:104)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI.doClick(BegMenuItemUI.java:512)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI.access$300(BegMenuItemUI.java:44)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI$MyMouseInputHandler.mouseReleased(BegMenuItemUI.java:532)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+ 
+2020-09-15 13:57:04,387 [65725770]   INFO -    #org.jetbrains.io.WebServer - web server stopped 
+2020-09-15 13:57:04,416 [65725799]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2020-09-15 13:57:04,469 [65725852]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2020-09-15 13:57:04,469 [65725852]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2020-09-15 13:57:04,470 [65725853]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2020-09-15 13:57:04,470 [65725853]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2020-09-15 13:57:04,475 [65725858]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2020-09-15 13:57:04,485 [65725868]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated. 
+2020-09-15 13:57:04,524 [65725907]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2020-09-15 13:57:04,531 [65725914]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2020-09-15 13:57:05,549 [65726932]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2020-09-15 13:57:10,151 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-09-15 13:57:10,151 [      0]   INFO -        #com.intellij.idea.Main - IDE: Guidewire Studio (build #Studio-8.0, 20 May 2014 00:00) 
+2020-09-15 13:57:10,151 [      0]   INFO -        #com.intellij.idea.Main - OS: Windows 8 (6.2) 
+2020-09-15 13:57:10,151 [      0]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_25-b17 (Oracle Corporation) 
+2020-09-15 13:57:10,151 [      0]   INFO -        #com.intellij.idea.Main - JVM: 23.25-b01 (Oracle Corporation) 
+2020-09-15 13:57:10,167 [     16]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:../lib/boot.jar -XX:ReservedCodeCacheSize=64m -Dstudio.sdkroot=C:\Hastings\GW8\Guidewire\PolicyCenter -Didea.plugins.compatible.build=IC-129.713 -Dfile.encoding=UTF-8 -Dide.tooltip.dismissDelay=60000 -ea -Didea.properties.file=C:/Hastings/GW8/Guidewire/PolicyCenter/.idea/settings/idea.properties -Didea.platform.prefix=Studio -Xms2000m -Xmx4000m -XX:MaxPermSize=500m -Dant.file=C:\Hastings\GW8\Guidewire\PolicyCenter\modules\ant\build.xml -Dant.project.invoked-targets=studio -Dant.file.type=file -Dant.file.Guidewire Ant environment initialization=C:\Hastings\GW8\Guidewire\PolicyCenter\modules\ant\init.xml -Dant.file.Guidewire product configuration environment=C:\Hastings\GW8\Guidewire\PolicyCenter\modules\ant\build.xml -Dant.project.default-target=help -Dant.file.type.Guidewire product configuration environment=file -Dant.file.type.Guidewire Ant environment initialization=file -Dant.project.name=Guidewire product configuration environment 
+2020-09-15 13:57:10,221 [     70]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 54 ms 
+2020-09-15 13:57:10,303 [    152]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.4) in 82 ms 
+2020-09-15 13:57:10,319 [    168]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-09-15 13:57:10,335 [    184]   INFO -        #com.intellij.idea.Main - Using "FocusKiller" library to prevent focus stealing. 
+2020-09-15 13:57:11,753 [   1602]   INFO - llij.ide.plugins.PluginManager - 37 plugins initialized in 1156 ms 
+2020-09-15 13:57:11,753 [   1602]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Ant Support (1.0), Copyright (8.1), GenerateToString (5.0), Git Integration (8.1), GitHub, IDEA CORE, Inspection Gadgets (1.0), Intention Power Pack (1.0), JUnit (1.0), JavaFX (1.0), Maven Integration, Properties Support, Subversion Integration (1.1) 
+2020-09-15 13:57:11,753 [   1602]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: GUnit (1.0-SNAPSHOT), Gosu (4.0-SNAPSHOT), Guidewire Internal API Inspector (1.0.0), Guidewire PC Studio (1.0), Guidewire Studio (1.0-SNAPSHOT), Guidewire Studio (Entity Codegen) (8.20.3) 
+2020-09-15 13:57:11,753 [   1602]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Android Designer, Android Support (10.0), Byte Code Viewer (0.1), CVS Integration (11), Commander (1.0.0), Eclipse Integration (3.0), Gradle, Groovy (9.0), I18n for Java, IntelliLang (8.0), Plugin DevKit (1.0), Task Management (1.0), TestNG-J (8.0), UI Designer, UI Designer (Core), XPathView + XSLT Support (4), XSLT-Debugger (1.4), hg4idea (10.0) 
+2020-09-15 13:57:12,434 [   2283]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted 
+2020-09-15 13:57:12,434 [   2283]   INFO - ellij.vfs.persistent.FSRecords - Filesystem storage is corrupted or does not exist. [Re]Building. Reason: Corruption marker file found 
+2020-09-15 13:57:12,466 [   2315]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted 
+2020-09-15 13:57:12,469 [   2318]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=3707305984 
+2020-09-15 13:57:12,500 [   2349]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: C:\Hastings\GW8\Guidewire\PolicyCenter\idea\bin\fsnotifier.exe 
+2020-09-15 13:57:13,001 [   2850]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2020-09-15 13:57:13,287 [   3136]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2020-09-15 13:57:13,318 [   3167]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2020-09-15 13:57:15,659 [   5508]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2020-09-15 13:57:15,659 [   5508]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2020-09-15 13:57:18,167 [   8016]   INFO - pl.stores.ApplicationStoreImpl - 75 application components initialized in 6293 ms 
+2020-09-15 13:57:18,167 [   8016]   INFO - .intellij.idea.IdeaApplication - App initialization took 10263 ms 
+2020-09-15 13:57:18,182 [   8031]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2020-09-15 13:57:20,120 [   9969]   INFO - CompilerWorkspaceConfiguration - Available processors: 8 
+2020-09-15 13:57:20,200 [  10049]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plainTextFiles.xml file is null 
+2020-09-15 13:57:20,212 [  10061]   INFO - ellij.project.impl.ProjectImpl - 129 project components initialized in 809 ms 
+2020-09-15 13:57:20,361 [  10210]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 149 ms 
+2020-09-15 13:57:26,455 [  16304]   INFO - .roots.impl.DirectoryIndexImpl - Directory index initialized in 5757 ms, indexed 9109 directories 
+2020-09-15 13:57:26,506 [  16355]   INFO - pl.PushedFilePropertiesUpdater - File properties pushed in 48 ms 
+2020-09-15 13:57:44,378 [  34227]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2020-09-15 13:57:47,233 [  37082]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 3211 ms 
+2020-09-15 13:57:47,233 [  37082]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 111692 files to update 
+2020-09-15 13:57:47,884 [  37733]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2020-09-15 13:57:47,885 [  37734]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2020-09-15 13:57:55,459 [  45308]   INFO -    #org.jetbrains.io.WebServer - We have tried to bind to 127.0.0.1 host but have got exception (Windows 8 6.2), so, try to check - are we really need to bind to 127.0.0.1 
+2020-09-15 13:57:55,513 [  45362]   INFO -    #org.jetbrains.io.WebServer - port check: current OS must be marked as normal 
+2020-09-15 13:57:55,515 [  45364]   INFO - jetbrains.ide.WebServerManager - web server started, port 63343 
+2020-09-15 13:58:04,956 [  54805]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 45593 ms 
+2020-09-15 14:00:01,228 [ 171077]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 133995 ms 
+2020-09-15 14:00:07,006 [ 176855]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/cachedDictionary.xml file is null 
+2020-09-15 14:05:26,751 [ 496600]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/intentionSettings.xml file is null 
+2020-09-15 14:14:23,520 [1033369]   INFO -   git4idea.commands.GitHandler - cd C:\Hastings\GW8\Guidewire\PolicyCenter\modules\configuration\GitTest 
+2020-09-15 14:14:23,520 [1033369]   INFO -   git4idea.commands.GitHandler - git log HEAD --branches --remotes --tags --max-count=340 --date-order --pretty=format:%x01%h%x02%ct%x02%p%x02%an%x03 --encoding=UTF-8 --full-history --sparse -- . 
+2020-09-15 14:14:25,853 [1035702]   INFO -   git4idea.commands.GitHandler - cd C:\Hastings\GW8\Guidewire\PolicyCenter\modules\GitTest 
+2020-09-15 14:14:25,853 [1035702]   INFO -   git4idea.commands.GitHandler - git log HEAD --branches --remotes --tags --max-count=340 --date-order --pretty=format:%x01%h%x02%ct%x02%p%x02%an%x03 --encoding=UTF-8 --full-history --sparse -- . 
+2020-09-15 14:14:26,085 [1035934]   INFO -   git4idea.commands.GitHandler - cd C:\Hastings\GW8\Guidewire\PolicyCenter\modules\configuration\GitTest 
+2020-09-15 14:14:26,085 [1035934]   INFO -   git4idea.commands.GitHandler - git show --name-status -M --pretty=format:%x01%h%x02%H%x02%ct%x02%an%x02%at%x02%ae%x02%cn%x02%ce%x02%p%x02%d%x02%s%x02%b%x02%B%x03 --encoding=UTF-8 e252413 
+2020-09-15 14:14:28,352 [1038201]   INFO -   git4idea.commands.GitHandler - cd C:\Hastings\GW8\Guidewire\PolicyCenter\modules\GItRepo 
+2020-09-15 14:14:28,352 [1038201]   INFO -   git4idea.commands.GitHandler - git log HEAD --branches --remotes --tags --max-count=340 --date-order --pretty=format:%x01%h%x02%ct%x02%p%x02%an%x03 --encoding=UTF-8 --full-history --sparse -- . 
+2020-09-15 14:14:28,610 [1038459]   INFO -   git4idea.commands.GitHandler - cd C:\Hastings\GW8\Guidewire\PolicyCenter\modules\configuration\GitTest 
+2020-09-15 14:14:28,610 [1038459]   INFO -   git4idea.commands.GitHandler - git show --name-status -M --pretty=format:%x01%h%x02%H%x02%ct%x02%an%x02%at%x02%ae%x02%cn%x02%ce%x02%p%x02%d%x02%s%x02%b%x02%B%x03 --encoding=UTF-8 
+2020-09-15 14:14:31,181 [1041030]   INFO -   git4idea.commands.GitHandler - cd C:\Hastings\GW8\Guidewire\PolicyCenter\modules\GitTest 
+2020-09-15 14:14:31,181 [1041030]   INFO -   git4idea.commands.GitHandler - git show --name-status -M --pretty=format:%x01%h%x02%H%x02%ct%x02%an%x02%at%x02%ae%x02%cn%x02%ce%x02%p%x02%d%x02%s%x02%b%x02%B%x03 --encoding=UTF-8 d1736bd 
+2020-09-15 14:14:33,489 [1043338]   INFO -   git4idea.commands.GitHandler - cd C:\Hastings\GW8\Guidewire\PolicyCenter\modules\GitTest 
+2020-09-15 14:14:33,489 [1043338]   INFO -   git4idea.commands.GitHandler - git show --name-status -M --pretty=format:%x01%h%x02%H%x02%ct%x02%an%x02%at%x02%ae%x02%cn%x02%ce%x02%p%x02%d%x02%s%x02%b%x02%B%x03 --encoding=UTF-8 
+2020-09-15 14:14:35,854 [1045703]   INFO -   git4idea.commands.GitHandler - cd C:\Hastings\GW8\Guidewire\PolicyCenter\modules\GItRepo 
+2020-09-15 14:14:35,854 [1045703]   INFO -   git4idea.commands.GitHandler - git show --name-status -M --pretty=format:%x01%h%x02%H%x02%ct%x02%an%x02%at%x02%ae%x02%cn%x02%ce%x02%p%x02%d%x02%s%x02%b%x02%B%x03 --encoding=UTF-8 7049f7a 
+2020-09-15 14:14:38,235 [1048084]   INFO -   git4idea.commands.GitHandler - cd C:\Hastings\GW8\Guidewire\PolicyCenter\modules\GItRepo 
+2020-09-15 14:14:38,235 [1048084]   INFO -   git4idea.commands.GitHandler - git show --name-status -M --pretty=format:%x01%h%x02%H%x02%ct%x02%an%x02%at%x02%ae%x02%cn%x02%ce%x02%p%x02%d%x02%s%x02%b%x02%B%x03 --encoding=UTF-8 
+2020-09-15 15:33:23,597 [5773446]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/template.settings.xml file is null 
+2020-09-15 15:38:14,898 [6064747]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/emmet.xml file is null 
+2020-09-15 15:38:31,831 [6081680]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2020-09-15 15:38:31,864 [6081713]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/ant.xml file is null 
+2020-09-15 15:38:33,756 [6083605]   INFO - lij.compiler.impl.CompilerUtil - Initial VFS refresh took 1891 ms: 0 min 1sec 
+2020-09-15 15:38:34,046 [6083895]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2020-09-15 15:38:38,476 [6088325]   INFO - .GenericCompilerPersistentData - Compiler info file doesn't exists: C:\Hastings\GW8\Guidewire\PolicyCenter\.idea\settings\system\compiler\policycenter.d121b462\.caches\artifacts_compiler\info 
+2020-09-15 15:38:38,477 [6088326]   INFO - ler.impl.GenericCompilerRunner - Clearing cache for Artifacts Packaging Compiler 
+2020-09-15 15:38:38,544 [6088393]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 4500 ms: 0 min 4sec 

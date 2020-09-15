@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="DimensionService">
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="739" y="255" />
+    <location key="OptionsEditor.0.0.1920.1080" x="339" y="84" />
+    <location key="#Updates.0.0.1920.1080" x="660" y="413" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="959" y="233" />
+  </component>
+  <component name="LafManager">
+    <laf class-name="idea.laf.classname" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Non-Project Files" value="Yellow" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/AppData/Local/Programs/Git/bin/git.exe" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="file.colors.enable.non.project" value="Yellow" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+</application>
+
